@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	color:white;
+	background-color: #575366;
+}
+
+nav{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: sticky;
+	top: 1px;
+	height: 40px;
+}
+
+nav .home{
+	margin: 0px;
+	float: left;
+	width: 500px;
+}
+
+nav .toolbar{
+	margin: 0px;
+	float: right;
+	width: 500px;
+}
+
+nav a:link, nav a:visited{
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Aldrich';
+	font-size: 18px;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+}
+
+.intro{
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Allerta Stencil';
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 1100px;
+	height: 500px;
+}
+
+.intro img{
+	width: 400px;
+	height: 460px;
+	display: block;
+	float: left;
+	border-radius: 20px;
+	margin-top:20px; 
+}
+
+.intro div{
+	float: left;
+	padding-left: 40px;
+	width: 600px;
+	height: 360px;
+}
+
+.intro h1{
+	font-size: 50px;
+}
+
+.intro p{
+	font-size: 22px;
+}

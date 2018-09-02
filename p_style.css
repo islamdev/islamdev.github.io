@@ -1,74 +1,82 @@
 body{
-	margin: 0;
-	padding: 0;
-	color:white;
-	background-color: #575366;
+	/*margin: 0px;*/
+	padding: 0px;
+	display: grid;
+	grid-template-columns: 1300px;
+	justify-content: center;
+	font-family: ABeeZee;
 }
 
-nav{
-	width: 100%;
+ul{
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: 70% 10% 10% 10%;
+	grid-column-gap: 5px;
 	position: sticky;
-	top: 1px;
-	height: 40px;
+	top: 0px;
+	/*background-color: lavender;*/
+	z-index: 20;
+	align-items: center;
 }
 
-nav .home{
-	margin: 0px;
-	float: left;
-	width: 500px;
-}
-
-nav .toolbar{
-	margin: 0px;
-	float: right;
-	width: 500px;
-}
-
-nav a:link, nav a:visited{
-	display: inline-block;
+li a{
 	text-decoration: none;
-	font-family: 'Aldrich';
-	font-size: 18px;
-	width: 150px;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
+	display: inline-block;
+	color: black;
+	font-weight: bold;
+	width: 70px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+li a:hover{
+	color: green;
+}
+
+.contact{
+    position: relative;
+	border: 2px solid green;
+	color: green;
+	transition: background-color 2s, color 2s, box-shadow 2s;
+}
+.contact:hover{
+	background-color: green;
 	color: white;
+	box-shadow: 5px 5px 8px lightgray;
 }
 
-.intro{
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	font-family: 'Allerta Stencil';
-	padding-left: 50px;
-	padding-right: 50px;
-	width: 1100px;
-	height: 500px;
+.logo{
+	font-family: Sofia;
+	width: 317px;
+	color: green;
+	font-size: 30px;
+	font-weight: bolder;
 }
 
-.intro img{
-	width: 400px;
-	height: 460px;
+.aboutme{
+	position: relative;
+	top: 200px;
+	left: 300px;
+	background-color: lavender;
+	width: 900px;
+	height: 550px;
+}
+
+.aboutme div{
+	position: absolute;
+	top: 200px;
+	left: -170px;
+}
+
+.aboutme img{
 	display: block;
-	float: left;
-	border-radius: 20px;
-	margin-top:20px; 
-}
-
-.intro div{
-	float: left;
-	padding-left: 40px;
-	width: 600px;
-	height: 360px;
-}
-
-.intro h1{
-	font-size: 50px;
-}
-
-.intro p{
-	font-size: 22px;
+	position: absolute;
+	width: 450px;
+	height: 600px;
+	top: -150px;
+	right: 20px;
+	border: 7px solid white;
+	box-shadow: 6px 6px 10px lightgray;
 }

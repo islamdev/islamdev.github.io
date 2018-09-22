@@ -1,0 +1,499 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+/*Break*/
+nav{
+    max-width: 60px;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    width: 50px;
+    height: 25vh;
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+nav a:hover {
+    padding-top: 5px;
+    border-top: 5px solid whitesmoke;
+}
+/*Break*/
+.aboutme {
+    background-color:red;
+    position:sticky;
+    top: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+    grid-column-gap: 25px;
+}
+.aboutme img{
+    width: 450px;
+    height: 600px;
+    border-radius: 300px;
+}
+.aboutme h1{
+    font-size: 100px;
+    color: black;
+    font-family: Sofia;
+}
+.aboutme p{
+    font-size: 23px;
+    font-weight: 600;
+}
+/*Break*/
+.resume{
+    position:sticky;
+    top:0;
+    width:100%;
+    box-sizing:border-box;
+    height:100vh;
+    background-color:whitesmoke;
+    margin: 0;
+    z-index: 10;
+    color: black;
+    display: grid;
+    grid-template-columns: 75%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+table td, table th{
+    border-bottom: 3px solid rgb(75, 74, 74);
+}
+table th{
+    font-family: Sofia;
+    font-size: 22px;
+}
+table td{
+    font-weight: 550;
+    font-size: 18px;
+}
+ul{
+    list-style-type: upper-roman;
+}
+table tr:hover{
+    background-color: lightgray;
+}
+.hidden_title{
+    display: none;
+}
+/*Break*/
+footer{
+    position:sticky;
+    width:100%;
+    box-sizing:border-box;
+    height:100vh;
+    background-color:black;
+    margin: 0;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: 50%;
+    align-content: center;
+    justify-content: center;
+}
+footer p{
+    text-align: center;
+    font-size: 23px;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+/*Break*/
+@media screen and (max-width:1366px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:'Courier New', Courier, monospace;
+        box-sizing: border-box;
+        color: whitesmoke;
+    }
+    /*Break*/
+    nav{
+        max-width: 60px;
+        height: 100vh;
+        background-color: black;
+        margin: 0;
+        padding: 5px;
+        position: fixed;
+        right: 0;
+        z-index: 100;
+        box-sizing: border-box;
+    }
+    nav a{
+        text-decoration: none;
+        width: 50px;
+        height: 25vh;
+        text-align: center;
+        display: block;
+        color: whitesmoke;
+        box-sizing: border-box;
+    }
+    nav a:hover {
+        padding-top: 5px;
+        border-top: 5px solid whitesmoke;
+    }
+    /*Break*/
+    .aboutme {
+        background-color:red;
+        position:sticky;
+        top: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 450px 450px;
+        align-content: center;
+        justify-content: center;
+        grid-column-gap: 15px;
+    }
+    .aboutme img{
+        margin: 0;
+        padding: 0;
+        width: 420px;
+        height: 550px;
+        border-radius: 300px;
+    }
+    .aboutme h1{
+        margin-top: 150px;
+        font-size: 60px;
+        color: black;
+        font-family: Sofia;
+    }
+    .aboutme p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    /*Break*/
+    .resume{
+        position:sticky;
+        top:0;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:whitesmoke;
+        margin: 0;
+        z-index: 10;
+        color: black;
+        display: grid;
+        grid-template-columns: 900px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    table td{
+        border-left: 2px solid rgb(75, 74, 74);
+        border-bottom: none;
+        font-weight: 550;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    table th{
+        font-family: Sofia;
+        font-size: 20px;
+        border: none;
+    }
+    ul{
+        list-style-type: upper-roman;
+    }
+    table tr:hover{
+        background-color: lightgray;
+    }
+    .hidden_title{
+        display: none;
+    }
+    /*Break*/
+    footer{
+        position:sticky;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:black;
+        margin: 0;
+        z-index: 20;
+        display: grid;
+        grid-template-columns: 800px;
+        align-content: center;
+        justify-content: center;
+    }
+    footer p{
+        text-align: center;
+        font-size: 23px;
+    }
+    footer a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+}
+ /*Break*/
+ @media screen and (max-width:800px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:'Courier New', Courier, monospace;
+        box-sizing: border-box;
+        color: whitesmoke;
+    }
+    /*Break*/
+    nav{
+        display: none;
+    }
+    /*Break*/
+    .aboutme {
+        background-color:red;
+        position:sticky;
+        top: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 650px;
+        justify-content: center;
+        grid-row-gap: 10px;
+    }
+    .aboutme img{
+        margin: auto;
+        padding: auto;
+        width: 320px;
+        height: 450px;
+        border-radius: 300px;
+    }
+    .aboutme h1{
+        margin-top: 10px;
+        font-size: 30px;
+        color: black;
+        font-family: Sofia;
+        text-align: center;
+    }
+    .aboutme p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    /*Break*/
+    .resume{
+        position:sticky;
+        top:0;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:whitesmoke;
+        margin: 0;
+        z-index: 10;
+        color: black;
+        display: grid;
+        grid-template-columns: 650px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    table{
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+    .hidden_title{
+        display: block;
+        list-style-type: none;
+        font-family: Sofia;
+        font-size: 20px;
+    }
+    table td{
+        padding: 0;
+        border-left: none;
+        border-bottom: 2px solid rgb(75, 74, 74);
+        font-weight: bold;
+        font-size: 16px;
+    }
+    table th{
+        display: none;
+        font-family: Sofia;
+        font-size: 20px;
+        border: none;
+    }
+    ul{
+        list-style-type: upper-roman;
+        margin: 5px;
+       
+    }
+    /*Break*/
+    footer{
+        position:sticky;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:black;
+        margin: 0;
+        z-index: 20;
+        display: grid;
+        grid-template-columns: 650px;
+        align-content: center;
+        justify-content: center;
+    }
+    footer p{
+        text-align: center;
+        font-size: 23px;
+    }
+    footer a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+}
+ /*Break*/
+ @media screen and (max-width:400px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family:'Courier New', Courier, monospace;
+        box-sizing: border-box;
+        color: whitesmoke;
+    }
+    /*Break*/
+    nav{
+        display: none;
+    }
+    /*Break*/
+    .aboutme {
+        background-color:red;
+        position:sticky;
+        top: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 320px;
+        justify-content: center;
+        grid-row-gap: 10px;
+    }
+    .aboutme img{
+        margin: auto;
+        padding: auto;
+        width: 250px;
+        height: 300px;
+        border-radius: 300px;
+    }
+    .aboutme h1{
+        margin-top: 8px;
+        font-size: 30px;
+        color: black;
+        font-family: Sofia;
+        text-align: center;
+    }
+    .aboutme p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    /*Break*/
+    .resume{
+        position:sticky;
+        top:0;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:whitesmoke;
+        margin: 0;
+        z-index: 10;
+        color: black;
+        display: grid;
+        grid-template-columns: 320px;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    table{
+        border-collapse: collapse;
+        padding: 0;
+        margin: 0;
+    }
+    .hidden_title{
+        display: block;
+        list-style-type: none;
+        font-family: Sofia;
+        font-size: 18px;
+    }
+    table td{
+        padding: 0;
+        border-left: none;
+        border-bottom: 2px solid rgb(75, 74, 74);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    table th{
+        display: none;
+        font-family: Sofia;
+        font-size: 20px;
+        border: none;
+    }
+    ul{
+        list-style-type: upper-roman;
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+    li ul li:last-child{
+        border-bottom: 1px solid gray;
+    }
+    li ul{
+        list-style-type: disc;
+    }
+    /*Break*/
+    footer{
+        position:sticky;
+        width:100%;
+        box-sizing:border-box;
+        height:100vh;
+        background-color:black;
+        margin: 0;
+        z-index: 20;
+        display: grid;
+        grid-template-columns: 320px;
+        align-content: center;
+        justify-content: center;
+    }
+    footer p{
+        text-align: center;
+        font-size: 20px;
+    }
+    footer a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+}
+ /*Break*/

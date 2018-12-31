@@ -32,7 +32,7 @@ nav a:hover {
 }
 /*Break*/
 .aboutme {
-    background-color:red;
+    background-color:blue;
     position:sticky;
     top: 0;
     margin: 0;
@@ -106,7 +106,7 @@ footer{
     width:100%;
     box-sizing:border-box;
     height:100vh;
-    background-color:black;
+    background-color:blue;
     margin: 0;
     z-index: 20;
     display: grid;
@@ -159,7 +159,7 @@ footer a{
     }
     /*Break*/
     .aboutme {
-        background-color:red;
+        background-color:blue;
         position:sticky;
         top: 0;
         margin: 0;
@@ -237,7 +237,7 @@ footer a{
         width:100%;
         box-sizing:border-box;
         height:100vh;
-        background-color:black;
+        background-color:blue;
         margin: 0;
         z-index: 20;
         display: grid;
@@ -270,7 +270,7 @@ footer a{
     }
     /*Break*/
     .aboutme {
-        background-color:red;
+        background-color:blue;
         position: static;
         /*top: 0;*/
         margin: 0;
@@ -357,7 +357,7 @@ footer a{
         width:100%;
         box-sizing:border-box;
         height:auto;
-        background-color:black;
+        background-color:blue;
         margin: 0;
         /*z-index: 20;*/
         display: grid;
@@ -390,7 +390,7 @@ footer a{
     }
     /*Break*/
     .aboutme {
-        background-color:red;
+        background-color:blue;
        position:static;
         /*top: 0;*/
         margin: 0;
@@ -481,7 +481,7 @@ footer a{
         width:100%;
         box-sizing:border-box;
         height:auto;
-        background-color:black;
+        background-color:blue;
         margin: 0;
        /* z-index: 20;*/
         display: grid;

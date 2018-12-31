@@ -32,7 +32,7 @@ nav a:hover {
 }
 /*Break*/
 .aboutme {
-    background-color:lightblue;
+    background-color:blue;
     position:sticky;
     top: 0;
     margin: 0;
@@ -53,7 +53,7 @@ nav a:hover {
 }
 .aboutme h1{
     font-size: 100px;
-    color: black;
+    color: whitesmoke;
     font-family: Sofia;
 }
 .aboutme p{
@@ -183,7 +183,7 @@ footer a{
     .aboutme h1{
         margin-top: 150px;
         font-size: 60px;
-        color: black;
+        color: whitesmoke;
         font-family: Sofia;
     }
     .aboutme p{
@@ -293,7 +293,7 @@ footer a{
     .aboutme h1{
         margin-top: 10px;
         font-size: 30px;
-        color: black;
+        color: whitesmoke;
         font-family: Sofia;
         text-align: center;
     }
@@ -413,7 +413,7 @@ footer a{
     .aboutme h1{
         margin-top: 8px;
         font-size: 30px;
-        color: black;
+        color: whitesmoke;
         font-family: Sofia;
         text-align: center;
     }
